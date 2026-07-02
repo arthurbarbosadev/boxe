@@ -773,7 +773,7 @@ ul {
 }
 
 .bono-val-free {
-    color: #C62828;
+    color: var(--color-green-dark);
     font-weight: 700;
 }
 
@@ -781,15 +781,15 @@ ul {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #fce4ec;
-    color: #C62828;
-    border: 1px solid rgba(198, 40, 40, 0.2);
+    background: #e8f5e9;
+    color: var(--color-green-dark);
+    border: 1px solid rgba(0, 168, 68, 0.2);
     border-radius: 50px;
     padding: 12px 30px;
     font-size: 1rem;
     font-weight: 700;
     margin-top: 20px;
-    box-shadow: 0 4px 12px rgba(198, 40, 40, 0.05);
+    box-shadow: 0 4px 12px rgba(0, 168, 68, 0.05);
 }
 
 .bonos-summary-container {
