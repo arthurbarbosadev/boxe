@@ -20,8 +20,8 @@
     --color-crimson: #C62828;
     --color-crimson-light: #EF5350;
     --color-crimson-dark: #B71C1C;
-    --color-gold: #FFD600;
-    --color-gold-light: #FFEA00;
+    --color-gold: #ff6f00;
+    --color-gold-light: #ffa000;
     --color-red: #ff1744;
     --color-green: #00c853;
     --color-green-dark: #00a844;
@@ -32,7 +32,7 @@
     --gradient-hero: linear-gradient(135deg, #0d0d14 0%, #2a0a0a 40%, #0d1420 100%);
     --gradient-crimson: linear-gradient(135deg, #C62828, #E53935);
     --gradient-crimson-hover: linear-gradient(135deg, #B71C1C, #C62828);
-    --gradient-gold: linear-gradient(135deg, #FFD600, #FFC107);
+    --gradient-gold: linear-gradient(135deg, #ffa000, #ff6f00);
     --gradient-green: linear-gradient(135deg, #00c853, #00e676);
     --gradient-green-hover: linear-gradient(135deg, #00a844, #00c853);
     --gradient-oferta: linear-gradient(135deg, #0d0d14 0%, #2a0a0a 50%, #0d1420 100%);
@@ -939,11 +939,11 @@ ul {
 /* Featured Gold Card */
 .plan-card-featured {
     border: 2px solid var(--color-gold);
-    box-shadow: 0 10px 30px rgba(255, 214, 0, 0.15);
+    box-shadow: 0 10px 30px rgba(255, 111, 0, 0.15);
 }
 
 .plan-card-featured:hover {
-    box-shadow: 0 15px 40px rgba(255, 214, 0, 0.25);
+    box-shadow: 0 15px 40px rgba(255, 111, 0, 0.25);
 }
 
 .plan-card-featured .plan-card-header {
@@ -1097,12 +1097,12 @@ ul {
     background: var(--gradient-gold);
     color: #1a1a2e;
     border: none;
-    box-shadow: 0 6px 20px rgba(255, 214, 0, 0.3);
+    box-shadow: 0 6px 20px rgba(255, 111, 0, 0.3);
 }
 
 .plan-card-featured .plan-card-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(255, 214, 0, 0.45);
+    box-shadow: 0 8px 24px rgba(255, 111, 0, 0.45);
 }
 
 .plan-card-trust {
