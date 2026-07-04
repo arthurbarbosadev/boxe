@@ -1,0 +1,31 @@
+/* ============================
+   DOWNSELL — OVERRIDES
+   ============================ */
+
+/* Hook spacing (no guarantee bar above) */
+.downsell-hook-top {
+    margin-top: 8px;
+}
+
+/* Subtitle under hook */
+.downsell-sub {
+    font-size: 0.95rem;
+    color: #6e6e7a;
+    line-height: 1.8;
+    max-width: 460px;
+    margin: 16px auto 0;
+}
+
+.downsell-sub strong {
+    color: #1a1a2e;
+}
+
+/* Badge variant — amber/gold */
+.downsell-badge {
+    background: linear-gradient(135deg, #ff6f00, #ff8f00) !important;
+}
+
+/* Hook line color */
+.downsell-line {
+    background: linear-gradient(90deg, #ff6f00, #ffa000) !important;
+}

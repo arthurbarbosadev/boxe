@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Gracias por tu compra! | Entrenamientos de Boxeo</title>
+    <meta name="description" content="Tu compra fue confirmada. Accede a tu material de entrenamiento de boxeo.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="upsell.css">
+    <style>
+        .thanks-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #00c853, #00e676);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 28px;
+            color: #fff;
+            box-shadow: 0 12px 40px rgba(0, 200, 83, 0.3);
+            animation: checkPop 0.6s ease 0.2s both;
+        }
+
+        @keyframes checkPop {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+
+            60% {
+                transform: scale(1.15);
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .thanks-title {
+            font-family: var(--font-heading);
+            font-size: clamp(1.6rem, 5vw, 2.4rem);
+            font-weight: 900;
+            color: #1a1a2e;
+            margin-bottom: 12px;
+            animation: fadeIn 0.6s ease 0.3s both;
+        }
+
+        .thanks-text {
+            font-size: 1rem;
+            color: #6e6e7a;
+            line-height: 1.8;
+            max-width: 460px;
+            margin: 0 auto 36px;
+            animation: fadeIn 0.6s ease 0.4s both;
+        }
+
+        .thanks-text strong {
+            color: #1a1a2e;
+        }
+
+        .thanks-steps {
+            width: 100%;
+            max-width: 460px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 36px;
+            animation: fadeIn 0.7s ease 0.5s both;
+        }
+
+        .thanks-step {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            background: #fff;
+            border: 1px solid #e8e8ec;
+            border-radius: 12px;
+            padding: 16px 20px;
+            text-align: left;
+        }
+
+        .thanks-step-number {
+            width: 36px;
+            height: 36px;
+            min-width: 36px;
+            background: linear-gradient(135deg, #C62828, #E53935);
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-heading);
+            font-weight: 800;
+            font-size: 0.9rem;
+        }
+
+        .thanks-step-text {
+            font-size: 0.92rem;
+            color: #4a4a56;
+            line-height: 1.5;
+        }
+
+        .thanks-step-text strong {
+            color: #1a1a2e;
+        }
+
+        .thanks-support {
+            background: linear-gradient(135deg, rgba(198, 40, 40, 0.05), rgba(198, 40, 40, 0.02));
+            border: 1px solid rgba(198, 40, 40, 0.1);
+            border-radius: 12px;
+            padding: 20px 24px;
+            animation: fadeIn 0.7s ease 0.6s both;
+        }
+
+        .thanks-support p {
+            font-size: 0.85rem;
+            color: #6e6e7a;
+            line-height: 1.6;
+        }
+
+        .thanks-support a {
+            color: var(--color-crimson);
+            font-weight: 600;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="upsell-page">
+        <div class="upsell-container">
+
+            <!-- ===== CHECK ICON ===== -->
+            <div class="thanks-icon">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+            </div>
+
+            <!-- ===== TITLE ===== -->
+            <h1 class="thanks-title">¡Gracias por tu compra!</h1>
+            <p class="thanks-text">
+                Tu material ya está listo. Sigue estos pasos para acceder a tu contenido:
+            </p>
+
+            <!-- ===== STEPS ===== -->
+            <div class="thanks-steps">
+                <div class="thanks-step">
+                    <div class="thanks-step-number">1</div>
+                    <p class="thanks-step-text">
+                        Revisa tu <strong>correo electrónico</strong> (incluyendo spam o promociones)
+                    </p>
+                </div>
+                <div class="thanks-step">
+                    <div class="thanks-step-number">2</div>
+                    <p class="thanks-step-text">
+                        Abre el email de <strong>Hotmart</strong> con el asunto "Tu compra fue aprobada"
+                    </p>
+                </div>
+                <div class="thanks-step">
+                    <div class="thanks-step-number">3</div>
+                    <p class="thanks-step-text">
+                        Haz clic en <strong>"Acceder a mi producto"</strong> y descarga tu material
+                    </p>
+                </div>
+            </div>
+
+            <!-- ===== SUPPORT ===== -->
+            <div class="thanks-support">
+                <p>¿Tienes algún problema para acceder? Escríbenos a <a
+                        href="mailto:@ejemplo.cosoportem">oreidolowticket@gmail.com</a> y te ayudaremos.</p>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+
+</html>
