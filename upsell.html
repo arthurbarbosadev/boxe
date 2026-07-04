@@ -81,8 +81,12 @@
                 </ul>
             </div>
 
-            <!-- ===== CTA (Hotmart script adds price/button) ===== -->
-            <div id="hotmart-upsell"></div>
+            <!-- HOTMART - Sales Funnel Widget -->
+            <div id="hotmart-sales-funnel"></div>
+            <script src="https://checkout.hotmart.com/lib/hotmart-checkout-elements.js"></script>
+            <script>
+                checkoutElements.init('salesFunnel').mount('#hotmart-sales-funnel')
+            </script>
 
             <div class="upsell-seals">
                 <span>🔒 Pago seguro</span>
